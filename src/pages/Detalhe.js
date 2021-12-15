@@ -18,7 +18,7 @@ export default function Detalhe() {
             style={styles.foto}
             source={{uri:item?.foto}}
         />
-        <Text style={[styles.title]}>{item?.nome}</Text>
+        <Text style={[styles.title]}>{item?.descricao}</Text>
       <StatusBar style="auto" />
     </View>
   );
